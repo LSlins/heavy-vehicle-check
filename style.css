@@ -1,0 +1,72 @@
+body {
+    background-color: #f9f9f9;
+
+
+}
+h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 32px;
+}
+span {
+    color: rgb(0, 146, 88);
+}
+.container {
+    background-color: rgb(5, 32, 56);
+    margin: auto auto;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search-input {
+    width: 100%;
+    height: 23px;
+    padding: 7px;
+    font-size: 16px;
+    z-index: 200;
+    vertical-align: middle;
+}
+.input select{
+    width: 20%;
+    height: 39px;
+    font-size: 16px;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    margin-left: -5px;
+    z-index: 100;
+    vertical-align: middle;
+}
+#get-report p{
+    background-color: rgb(41, 185, 153);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.description a {
+    color: white;
+}
+.info1 {
+    margin-right: 20px;
+}
+.custom-data-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

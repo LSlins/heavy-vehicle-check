@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heavy Vehicle Check</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1><span>heavy</span>Vehicle Check<span><strong>&#10003; </strong></span></h1>
+    <div class="container">
+        <form method="POST">
+            <div class="input">
+                <input id="search-input" type="text" placeholder="Enter Plate Number...">
+                <select id="search-state">
+                    <option value="option1">State</option>
+                    <option value="option2">QLD</option>
+                    <option value="option3">NSW</option>
+                    <option value="option4">NT</option>
+                    <option value="option5">SA</option>
+                    <option value="option6">TAS</option>
+                    <option value="option7">VIC</option>
+                </select>
+            </div>
+            <div id="get-report" type="submit">
+                <p>Get Report</p>
+            </div>
+        </form>
+
+        <div class="description">
+            <a href="#" class="info1">Where's my VIN?</a>
+            <a href="#" class="info2">Download sample report</a>
+        </div>
+        <div id="results" style="color:white;">
+
+        </div>
+        <div id="error-message"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
